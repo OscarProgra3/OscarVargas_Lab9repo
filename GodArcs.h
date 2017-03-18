@@ -9,7 +9,7 @@ class GodArcs
 {
 	protected:
 		int lvlatack;
-		string tipoelemento;
+		string kindelement;
 
 	public:
 		GodArcs();
@@ -19,8 +19,8 @@ class GodArcs
 		void setLvlatack(int);
 
 		string getKindelement();
-		void setstKindelement();
+		void setKindelement(string);
 
 		virtual void atacar(int,int);
-
+};
 #endif

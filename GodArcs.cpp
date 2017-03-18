@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
 
 GodArcs::GodArcs(int plvlatack, string pkindelement)
 {
@@ -22,13 +23,14 @@ string GodArcs::getKindelement()
 {
 	return kindelement;
 }
-void GodArcs::setKindelement(int tKindelement)
+void GodArcs::setKindelement(string tKindelement)
 {
 	kindelement=tKindelement;
 }
 
 //poli
+/*
 void GodArcs::atacar(int base, int especial)
 {
 
-}
+}*/

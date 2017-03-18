@@ -1,5 +1,5 @@
 #include "Bustersword.h"
-#include "GodArcs.h"
+
 
 Bustersword::Bustersword(int plvlatack, string pkindelement, int plvlcrushatack, int pexplosivepower) : GodArcs( plvlatack, pkindelement)
 {
@@ -22,10 +22,11 @@ int Bustersword::getExplosivepower()
 }
 void Bustersword::setExplosivepower(int texplosivepower)
 {
-	explosivepower=texplosivepower
+	explosivepower=texplosivepower;
 }
-
+/*
 void Bustersword::atacar(int base,int crushatack)
 {
-	
+
 }
+*/

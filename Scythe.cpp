@@ -1,25 +1,25 @@
 #include "Scythe.h"
 
 
-Scythe::Scythe(int plvlatack, string pkindelement, int plvlpierce, int pspeedcutpower) : GodArcs( plvlatack, pkindelement)
+Scythe::Scythe(int plvlatack, string pkindelement, int plvlslash, int plongcuttingpower) : GodArcs( plvlatack, pkindelement)
 {
-	lvlpierce=plvlpierce;
-	speedcutpower=pspeedcutpower;
+	lvlslash=plvlslash;
+	longcuttingpower=plongcuttingpower;
 }
 
-int Scythe::getLvlpierce()
+int Scythe::getLvlslash()
 {
-	return lvlpierce;
+	return lvlslash;
 }
-void Scythe::setLvlpierce(int tlvlpierce)
+void Scythe::setLvlslash(int tlvlslash)
 {
-	lvlpierce=tlvlpierce;
+	lvlslash=tlvlslash;
 }
 
-int Scythe::getSpeedcutpower()
+int Scythe::getLongcuttingpower()
 {
-	return speedcutpower;
+	return longcuttingpower;
 }
-void Scythe::setSpeedcutpower(int tspeedcutpower){
-	speedcutpower=tspeedcutpower;
+void Scythe::setLongcuttingpower(int tLongcuttingpower){
+	longcuttingpower=tLongcuttingpower;
 }

@@ -22,4 +22,4 @@ Aragamis.o:	Aragamis.cpp Aragamis.h
 GodEaters.o:	GodEaters.cpp GodEaters.h 
 	g++ -c GodEaters.cpp
 clean:	
-	rm *.o main
+	rm *.o Main

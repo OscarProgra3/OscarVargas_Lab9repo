@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Bustersword : public Godarcs
+class Bustersword : public GodArcs
 {
 	private: 
 		int lvlcrushatack;
@@ -23,7 +23,7 @@ class Bustersword : public Godarcs
 
 		//poli
 
-		virtual atacar(int,int);
+		//virtual atacar(int,int);
 
 };
 #endif
