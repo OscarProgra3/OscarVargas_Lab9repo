@@ -25,8 +25,7 @@ void Scythe::setLongcuttingpower(int tLongcuttingpower){
 }
 
 //poli
-int Scythe::atacar(int base,int slash)
+int Scythe::atacar()
 {
-	int ataque=base+slash;
-	return ataque;
+	GodArcs::getLvlatack()+lvlslash;
 }

@@ -25,8 +25,7 @@ void Shortsword::setSpeedcutpower(int tspeedcutpower)
 	speedcutpower=tspeedcutpower;
 }
 
- int Shortsword::atacar(int base,int pierce)
+ int Shortsword::atacar()
 {
-	int ataque=base+pierce;
-	return ataque;
+	GodArcs::getLvlatack()+lvlpierce;
 }

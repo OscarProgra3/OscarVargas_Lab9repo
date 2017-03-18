@@ -34,8 +34,45 @@ int main()
 
 				if (respingresar==1)//agregando godarcs
 				{
+					int atacklvl;
+					cout<<"Ingrese el nivel de ataque: ";
+					cin>>atacklvl;
+					string kindelement;
+					string tipoelemento;
+					int typeel=9;
+					while(typeel<0 || typeel>3)
+					{
+						cout<<"Ingrese el tipo de elemento\n1.-Divine\n2.-Blaze\n3.-Freeze";
+						cin>>typeel;
+						if (typeel==1)
+						{
+
+							tipoelemento="Divine";
+						}
+						if (typeel==2)
+						{
+							tipoelemento="Blaze";
+						}
+						if (typeel==3)
+						{
+							tipoelemento="Freeze";
+						}
+
+					}//fin de tipodeelemento
+
+					int type=9;
+					while(type<0 || type>3)
+					{
+						cout <<"¿Que tipo de GodArc desea?\n1.-Buster sword\n2.-Scythe\n3.-Short sword";
+						cin>>type;
+						if (type==1)
+						{
+							
+						}//fin de Buster
+
+					}
 					
-				}
+				}//fin de agregar godarcs
 
 
 			}

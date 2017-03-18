@@ -28,9 +28,9 @@ void GodArcs::setKindelement(string tKindelement)
 	kindelement=tKindelement;
 }
 
-//poli
+//poli del papi
 
-int GodArcs::atacar(int base,int otro)
+int GodArcs::atacar()
 {
-
+	return 0;
 }

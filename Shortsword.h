@@ -21,7 +21,7 @@ class Shortsword : public GodArcs
 		int getSpeedcutpower();
 		void setSpeedcutpower(int);
 
-		virtual int atacar(int,int);
+		virtual int atacar();
 };
 
 #endif
