@@ -27,3 +27,8 @@ void GodArcs::setKindelement(int tKindelement)
 	kindelement=tKindelement;
 }
 
+//poli
+void GodArcs::atacar(int base, int especial)
+{
+
+}

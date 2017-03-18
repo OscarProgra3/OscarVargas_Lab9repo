@@ -7,19 +7,19 @@ Scythe::Scythe(int plvlatack, string pkindelement, int plvlpierce, int pspeedcut
 	speedcutpower=pspeedcutpower;
 }
 
-int getLvlpierce()
+int Scythe::getLvlpierce()
 {
 	return lvlpierce;
 }
-void setLvlpierce(int tlvlpierce)
+void Scythe::setLvlpierce(int tlvlpierce)
 {
 	lvlpierce=tlvlpierce;
 }
 
-int getSpeedcutpower()
+int Scythe::getSpeedcutpower()
 {
 	return speedcutpower;
 }
-void setSpeedcutpower(int tspeedcutpower){
+void Scythe::setSpeedcutpower(int tspeedcutpower){
 	speedcutpower=tspeedcutpower;
 }

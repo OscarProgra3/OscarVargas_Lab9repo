@@ -24,3 +24,8 @@ void Bustersword::setExplosivepower(int texplosivepower)
 {
 	explosivepower=texplosivepower
 }
+
+void Bustersword::atacar(int base,int crushatack)
+{
+	
+}

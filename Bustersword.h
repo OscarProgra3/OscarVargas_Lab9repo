@@ -21,5 +21,9 @@ class Bustersword : public Godarcs
 		int getExplosivepower();
 		void setExplosivepower(int);
 
+		//poli
+
+		virtual atacar(int,int);
+
 };
 #endif
