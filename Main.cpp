@@ -13,6 +13,7 @@
 using namespace std;
 
 void listarGodarcs(vector <GodArcs*> listaGodarcsT);
+void listarGodeaters(vector <GodEaters*> listaGodeatersT);
 void listarAragamis(vector <Aragamis*> listaAragamisT);
 int main()
 {
@@ -201,6 +202,28 @@ int main()
 					cout<<endl<<"¿A quien desea sacrificar?"<<endl;
 					cin>>sacrificio;
 
+					listaGodarcs.erase(listaGodarcs.begin() + sacrificio);
+					cout<<endl<<"sacrificio realizado exitosamente"<<endl;
+				}
+				if (respeliminar==2)
+				{
+					int sacrificio;
+					listarGodeaters(listaGodeaters);
+					cout<<endl<<"¿A quien desea sacrificar?"<<endl;
+					cin>>sacrificio;
+
+					listaGodeaters.erase(listaGodeaters.begin() + sacrificio);
+					cout<<endl<<"sacrificio realizado exitosamente"<<endl;
+				}
+				if (respeliminar==3)
+				{
+					int sacrificio;
+					listarAragamis(listaAragamis);
+					cout<<endl<<"¿A quien desea sacrificar?"<<endl;
+					cin>>sacrificio;
+
+					listaAragamis.erase(listaAragamis.begin() + sacrificio);
+					cout<<endl<<"sacrificio realizado exitosamente"<<endl;
 				}
 			}
 				
@@ -259,7 +282,7 @@ void listarAragamis(vector <Aragamis*> listaAragamisT)
 		cout << "----------------------------------------------" << endl;
 	}
 }
-void listaGodeaters(vector <GodEaters*> listaGodeatersT)
+void listarGodeaters(vector <GodEaters*> listaGodeatersT)
 {
 	cout<<endl<<"----------LISTA DE GODEATERS---------------------";
 	for (int i = 0; i < listaGodeatersT.size(); ++i)
