@@ -233,7 +233,88 @@ int main()
 
 		if (resp==4)//SIMULACION
 		{
-			/* code */
+
+			GodArcs* godarc1;
+			Aragamis* aragamis1;
+			GodEaters* godeaters1;
+
+			GodArcs* godarc2;
+			Aragamis* aragamis2;
+			GodEaters* godeaters2;
+
+
+			cout<<endl<<endl<<"+*+*+*+*+*+*+*+* BIENVENIDO A LA SIMULACION DE BATALLAS +*+*+*+*+*+*+*+*+*+*+";
+			
+			int respeleador1=99;
+			while(respeleador1!=4)
+			{
+				cout<<"ELIJA A EL PELEADOR 1: \n1.-Gestión de GodArcs\n2.-Gestión de GodEaters\n3.-Gestión de Aragamis\n4.-salir de ingresar\ningrese su opcion: ";
+				if (respeleador1==1)
+				{
+					int numbatalla;
+					listarGodarcs(listaGodarcs);
+					cout<<endl<<"¿A quien desea meter en la batalla?"<<endl;
+					cin>>numbatalla;
+
+					godarc1=listaGodarcs.at(numbatalla);
+				}
+				if (respeleador1==2)
+				{
+					int numbatalla;
+					listarGodeaters(listaGodeaters);
+					cout<<endl<<"¿A quien desea meter en la batalla?"<<endl;
+					cin>>numbatalla;
+
+					godeaters1=listaGodeaters.at(numbatalla);
+				}
+				if (respeleador1==3)
+				{
+					int numbatalla;
+					listarAragamis(listaAragamis);
+					cout<<endl<<"¿A quien desea meter en la batalla?"<<endl;
+					cin>>numbatalla;
+					aragamis1=listaAragamis.at(numbatalla);
+				}
+
+			}	
+
+
+			int respeleador2=99;
+			while(respeleador2!=4)
+			{
+				cout<<"ELIJA A EL PELEADOR 2: \n1.-Gestión de GodArcs\n2.-Gestión de GodEaters\n3.-Gestión de Aragamis\n4.-salir de ingresar\ningrese su opcion: ";
+				if (respeleador2==1)
+				{
+					int numbatalla;
+					listarGodarcs(listaGodarcs);
+					cout<<endl<<"¿A quien desea meter en la batalla?"<<endl;
+					cin>>numbatalla;
+					godarc2=listaGodarcs.at(numbatalla);
+				}
+				if (respeleador2==2)
+				{
+					int numbatalla;
+					listarGodeaters(listaGodeaters);
+					cout<<endl<<"¿A quien desea meter en la batalla?"<<endl;
+					cin>>numbatalla;
+
+					godeaters2=listaGodeaters.at(numbatalla);
+				}
+				if (respeleador2==3)
+				{
+					int numbatalla;
+					listarAragamis(listaAragamis);
+					cout<<endl<<"¿A quien desea meter en la batalla?"<<endl;
+					cin>>numbatalla;
+
+					aragamis2=listaAragamis.at(numbatalla);
+				}
+			}
+
+			cout<<endl<<endl<<"+*+*+*+*+* LA BATALLA HA COMENZADO +*+*+*+*+*+*";
+		
+
+				cout<<endl<<endl<<"+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+**+*+*+*+*+*+*+*+*+*+*+*+*+";
 		}//FIN DE SIMULACION
 
 	}

@@ -30,7 +30,7 @@ string Bustersword::getTipo()
 	return "Bustersword"; 
 }
 
-
+//poli
 int Bustersword::atacar()
 {
 	return GodArcs::getLvlatack()+lvlcrushatack;
