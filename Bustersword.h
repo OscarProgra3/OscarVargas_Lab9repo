@@ -21,8 +21,9 @@ class Bustersword : public GodArcs
 		int getExplosivepower();
 		void setExplosivepower(int);
 
-		//poli
+		string getTipo();
 
+		//poli
 		virtual int atacar();
 
 };

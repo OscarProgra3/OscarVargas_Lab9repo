@@ -30,6 +30,11 @@ void GodArcs::setKindelement(string tKindelement)
 
 //poli del papi
 
+string GodArcs::getTipo(){
+
+	return "";
+}
+
 int GodArcs::atacar()
 {
 	return 0;

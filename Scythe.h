@@ -21,6 +21,8 @@ class Scythe : public GodArcs
 		int getLongcuttingpower();
 		void setLongcuttingpower(int);
 
+		string getTipo();
+
 		virtual int atacar();
 
 };

@@ -25,7 +25,13 @@ void Shortsword::setSpeedcutpower(int tspeedcutpower)
 	speedcutpower=tspeedcutpower;
 }
 
- int Shortsword::atacar()
+string Shortsword::getTipo()
+{
+	return "Shortsword"; 
+}
+
+//poli
+int Shortsword::atacar()
 {
 	GodArcs::getLvlatack()+lvlpierce;
 }

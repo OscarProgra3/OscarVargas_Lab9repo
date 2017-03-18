@@ -21,6 +21,7 @@ class GodArcs
 		string getKindelement();
 		void setKindelement(string);
 
+		virtual string getTipo();
 		virtual int atacar();
 };
 #endif

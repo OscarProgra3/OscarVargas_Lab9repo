@@ -24,6 +24,11 @@ void Scythe::setLongcuttingpower(int tLongcuttingpower){
 	longcuttingpower=tLongcuttingpower;
 }
 
+string Scythe::getTipo()
+{
+	return "Scythe"; 
+}
+
 //poli
 int Scythe::atacar()
 {

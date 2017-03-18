@@ -25,7 +25,14 @@ void Bustersword::setExplosivepower(int texplosivepower)
 	explosivepower=texplosivepower;
 }
 
+string Bustersword::getTipo()
+{
+	return "Bustersword"; 
+}
+
+
 int Bustersword::atacar()
 {
 	return GodArcs::getLvlatack()+lvlcrushatack;
 }
+
