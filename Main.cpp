@@ -188,8 +188,21 @@ int main()
 		if (resp==3)//Eliminar
 		{
 			cout<<endl<<"xxxxxxxxxxx BIENENIDO AL ABISMO DE LOS LAMENTOS xxxxxxxxxxxxx";
+			
+			int respeliminar=99;
+			while(respeliminar!=4)
+			{
+				cout<<"¿Que es lo que desea sacrificars?\n1.-Gestión de GodArcs\n2.-Gestión de GodEaters\n3.-Gestión de Aragamis\n4.-salir de ingresar\ningrese su opcion: ";
+				cin>>respeliminar;
+				if (respeliminar==1)
+				{
+					int sacrificio;
+					listarGodarcs(listaGodarcs);
+					cout<<endl<<"¿A quien desea sacrificar?"<<endl;
+					cin>>sacrificio;
 
-			cout<<"¿Que es lo que desea sacrificars?\n1.-Gestión de GodArcs\n2.-Gestión de GodEaters\n3.-Gestión de Aragamis\n4.-salir de ingresar\ningrese su opcion: ";
+				}
+			}
 				
 
 			cout<<endl<<"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
