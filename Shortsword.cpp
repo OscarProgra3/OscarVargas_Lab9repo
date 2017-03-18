@@ -20,6 +20,13 @@ int Shortsword::getSpeedcutpower()
 {
 	return speedcutpower;
 }
-void Shortsword::setSpeedcutpower(int tspeedcutpower){
+void Shortsword::setSpeedcutpower(int tspeedcutpower)
+{
 	speedcutpower=tspeedcutpower;
+}
+
+ int Shortsword::atacar(int base,int pierce)
+{
+	int ataque=base+pierce;
+	return ataque;
 }

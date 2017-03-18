@@ -23,7 +23,7 @@ class Bustersword : public GodArcs
 
 		//poli
 
-		//virtual atacar(int,int);
+		virtual int atacar(int,int);
 
 };
 #endif

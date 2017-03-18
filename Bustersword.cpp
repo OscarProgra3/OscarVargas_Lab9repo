@@ -24,9 +24,9 @@ void Bustersword::setExplosivepower(int texplosivepower)
 {
 	explosivepower=texplosivepower;
 }
-/*
-void Bustersword::atacar(int base,int crushatack)
-{
 
+int Bustersword::atacar(int base,int crushatack)
+{
+	int ataque=base+crushatack;
+	return ataque;
 }
-*/

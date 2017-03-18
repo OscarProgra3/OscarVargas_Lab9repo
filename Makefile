@@ -19,7 +19,7 @@ Shortsword.o:	Shortsword.cpp Shortsword.h GodArcs.h
 Aragamis.o:	Aragamis.cpp Aragamis.h 
 	g++ -c Aragamis.cpp
 
-GodEaters.o:	GodEaters.cpp GodEaters.h 
+GodEaters.o:	GodEaters.cpp GodEaters.h GodArcs.h
 	g++ -c GodEaters.cpp
 clean:	
-	rm *.o Main
+	rm -f *.o Main

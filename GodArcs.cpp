@@ -29,8 +29,8 @@ void GodArcs::setKindelement(string tKindelement)
 }
 
 //poli
-/*
-void GodArcs::atacar(int base, int especial)
+
+int GodArcs::atacar(int base,int otro)
 {
 
-}*/
+}

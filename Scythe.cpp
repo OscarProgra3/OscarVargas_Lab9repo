@@ -23,3 +23,10 @@ int Scythe::getLongcuttingpower()
 void Scythe::setLongcuttingpower(int tLongcuttingpower){
 	longcuttingpower=tLongcuttingpower;
 }
+
+//poli
+int Scythe::atacar(int base,int slash)
+{
+	int ataque=base+slash;
+	return ataque;
+}
